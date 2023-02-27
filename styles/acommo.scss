@@ -1,0 +1,51 @@
+.acomo{
+    width: 100%;
+    max-width: 1400px;
+    margin-inline: auto !important;
+    .acomo__image{
+        width:100%;
+        background-image: url(../public/images/ac-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+    }
+    .ac-content{
+        h1{
+            text-align: center;
+            font-size: 2rem;
+        }
+        p{
+            width:85%;
+            margin-inline: auto;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 100;
+            letter-spacing: 1.3px;
+            line-height: 1.5;
+            margin-block-end: 7rem;
+            margin-block-start: 2rem;
+        }
+    }
+    padding-block-end: 200px;
+    padding-block-start: 100px;
+    @media (min-width:37.5em){
+        .acomo__body{
+            
+                display: flex;
+            justify-content: space-between;
+            .card{
+                .content{
+                    h2{
+                        text-transform: capitalize;
+                        text-align: center;
+                    }
+                    h3{
+                        text-align: center;
+                    }
+                }
+            }
+            }
+        
+    }
+}

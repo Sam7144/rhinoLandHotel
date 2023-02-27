@@ -1,0 +1,33 @@
+$brown:hsl(0, 83%, 16%);
+$black:hsl(0, 0%, 0%);
+.terms{
+    width: 100%;
+    max-width: 1400px;
+    margin-inline: auto !important;
+margin-block-end: 100px;    
+    &__headline{
+        h1{
+            padding-block-start: 100px;
+            text-align: center;
+            color: $brown;
+            font-weight: 100;
+            font-size: 3rem;
+        }
+        .border{
+            width: 80%;
+            border-bottom: 1px solid $black;
+            margin-block-start: 20px;
+            margin-inline: auto;
+        }
+    }
+    @media (max-width:37.5em){
+        h1{
+            font-size: 2rem;
+        }
+    }
+    &__content{
+        p{
+            padding-block: 1rem;
+        }
+    }
+}

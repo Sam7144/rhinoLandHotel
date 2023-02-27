@@ -1,0 +1,19 @@
+// const[values,setValues]=useState({
+  //   fname:'',
+  //   lname:'',
+  //   org_name:'',
+  //   org_email:'',
+  //   org_tel:'',
+  //   org_address:'',
+  //   org_city:'',
+  //   org_postalcode:'',
+  //   org_country:'',
+  //   contact_val1:'Telephone',
+  //   contact_val2:'Email',
+  // })
+  // const{fname,lname,org_name,org_email,org_tel,org_address,
+  //   org_city,org_postalcode,org_country,contact_val1,contact_val2,
+  // }=values;
+  // const formHandler=(e)=>{
+  //   setValues({...values,[e.target.name]:[e.target.value]})
+  // }

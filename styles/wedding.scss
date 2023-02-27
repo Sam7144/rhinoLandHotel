@@ -1,0 +1,129 @@
+$brown: hsl(0, 83%, 16%);
+$black: hsl(0, 0%, 0%);
+.wedding {
+  width: 100%;
+    max-width: 1400px;
+    margin-inline: auto !important;
+  margin-block-end: 100px;
+  &__image {
+    width: 100%;
+    background-image: url(../public//images/salons-i-ii-iii-banquet-style.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  &__content {
+    width: 100%;
+    margin-block-end: 50px;
+    h1 {
+      padding-block-start: 50px;
+      text-align: center;
+      color: $brown;
+      font-weight: 100;
+      font-size: 3rem;
+    }
+    h6 {
+      font-size: 2rem;
+      font-weight: 100;
+      text-align: center;
+    }
+    p {
+      padding-block: 1rem;
+      font-size: 1.3rem;
+      line-height: 1.8;
+      width: 80%;
+      margin-inline: auto;
+      text-align: center;
+    }
+
+    @media (max-width: 37.5em) {
+      h1 {
+        font-size: 2rem;
+      }
+      h6 {
+        font-size: 1rem;
+      }
+    }
+  }
+  &__display {
+    margin-block-start: 100px;
+    .salon1 {
+      .display__image {
+        margin-block-end: 30px;
+        width: 100%;
+        background-image: url(../public//images/salon2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+      }
+      .display__content {
+        h1 {
+          text-align: center;
+          font-weight: 100;
+          letter-spacing: 2px;
+          margin-block: 20px;
+        }
+        p {
+           margin-block-end: 30px;
+          text-align: center;
+        }
+      }
+    }
+    .colo1 {
+      .display__image {
+        margin-block-end: 30px;
+        width: 100%;
+        background-image: url(../public//images/colo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+      }
+      .display__content {
+        h1 {
+          text-align: center;
+          font-weight: 100;
+          letter-spacing: 2px;
+          margin-block: 20px;
+        }
+        p {
+           margin-block-end: 30px;
+          text-align: center;
+        }
+      }
+    }
+
+    .plaza1 {
+      .display__image {
+        margin-block-end: 30px;
+        width: 100%;
+        background-image: url(../public//images/plaza-buffet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+      }
+      .display__content {
+        h1 {
+          text-align: center;
+          font-weight: 100;
+          letter-spacing: 2px;
+          margin-block: 20px;
+        }
+        p {
+           margin-block-end: 30px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  @media (min-width: 37.5em) {
+    .wedding__display {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+$brown:hsl(0, 83%, 16%);
+$black:hsl(0, 0%, 0%);
+.privancy{
+    margin-block-end: 50px;
+    .privancy__headline{
+        h1{
+            padding-block-start: 100px;
+            text-align: center;
+            color: $brown;
+            font-weight: 100;
+            font-size: 3rem;
+        }
+        .border{
+            width: 80%;
+            border-bottom: 1px solid $black;
+            margin-block-start: 0px;
+            margin-inline: auto;
+        }
+        p{
+            padding-block: 2rem;
+        }
+        @media (min-width:40.5em){
+            .border{
+                margin-block-start: 20px;
+            }
+        }
+        @media (max-width:37.5em){
+           p{
+            font: 4.3rem !important;
+            line-height: 1.8;
+            padding-inline: 10px;
+           }
+        }
+    }
+}

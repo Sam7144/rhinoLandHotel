@@ -1,0 +1,93 @@
+.review {
+  width: 100%;
+    max-width: 1400px;
+    margin-inline: auto !important;
+  &__image {
+    background-image: url(../public/images/exterior.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+  }
+  &__content {
+    margin-block-start: 3rem;
+    h1,
+    p,
+    h6 {
+      text-align: center;
+      font-weight: 100;
+    }
+    h1 {
+      font-size: 4rem;
+    }
+    h6 {
+      font-size: 2rem;
+    }
+    p {
+      margin-block-start: 2rem;
+      font-size: 1.3rem;
+      line-height: 1.8;
+    }
+
+    .quotes {
+      margin-block-start: 5rem;
+      margin-block-end: 1rem;
+      //display: flex;
+      //justify-content: space-between;
+      //flex-wrap: wrap;
+      q {
+        //width:40%;
+        font-size: 1.2rem;
+        line-height: 1.8;
+        letter-spacing: 2px;
+       border: 1px solid black;
+        height: auto;
+        padding: 10px;
+        
+      }
+    }
+    @media (max-width:37.5em){
+        h1{
+            font-size: 3rem;
+        }
+        h6{
+            margin-block-start: 1rem;
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+        .quotes{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+      @media (min-width: 37.5em) {
+        .quotes {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(3, 1fr);
+          grid-template-areas:
+            " h b"
+            "h d"
+            "c d";
+
+          gap: 20px;
+          .q-1 {
+            grid-area: h;
+          }
+          .q-2 {
+            grid-area: b;
+          }
+          .q-3 {
+            grid-area: c;
+          }
+          .q-4 {
+            grid-area: d;
+          }
+        }
+      }
+    
+  }
+}

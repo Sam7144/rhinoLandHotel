@@ -1,0 +1,65 @@
+{
+    "accomodation__categories":[
+        {
+            "id":"suites",
+            "title":"suites",
+            "description":"View Our Suites",
+            "img":"https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80 1170w",
+            "image":"/images/del.jpg",
+            "destitle":"Spacious Downtown Chicago Hotel Suites"
+        },
+        {
+            "id":"rooms",
+            "title":"rooms",
+            "description":"View Our Rooms",
+            "img":"https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80",
+            "image":"/images/roombig2.jpg" ,
+            "destitle":"Luxe Downtown Chicago Hotel Rooms"
+        }
+    ]
+    ,
+    "all__accomodation":[
+        {
+            "id":"suites",
+            "description":"Our Chicago hotel suites offer spacious settings for rest and relaxation before and after exploring nearby attractions and sights.",
+            "title":"RhinoLand Suite",
+            "slug":"RhinoLand-Suite",
+            "slugDescription":"Experience an exquisite gem among among romantic suites in Chicago. The luxurious Whitehall Suite is designed with sumptuous colors and textures offers a bedroom with a four-poster king-size bed, dressing area, and private bathroom with marble accents, shower and soaking tub. At 750-square feet, these elegant suites offer spacious living room and dining areas with hardwood floors, 42-inch high definition LED television in living room, a refrigerator, a bar and a deluxe guest powder room. Spacious bedroom features premium Egyptian cotton linens, duvet with goose down comforter, exclusive Hypnos cashmere mattresses, restored antique mahogany furniture and writing desk designed with comfort and style in mind, original three-dimensional artwork, Whitehall signature plush robes, in-room safe, and amenities.",
+            "price":159,
+            "img":"/images/suit1.jpg"
+        },
+        {
+            "id":"suites",
+            "description":"Delaware Suite This exquisite one-bedroom suite designed with sumptuous colors and textures offers a bedroom with a four-poster king-size bed, dressing area and private bathroom with marble accents.",
+            "title":"Delaware Suite",
+            "slug":"Delaware-Suite",
+            "slugDescription":"The Whitehall is the choice in suite hotels in Chicago, especially with the Delaware Suite in its doors. This exquisite one-bedroom suite designed with sumptuous colors and textures offers a bedroom with a four-poster king-size bed, dressing area, and private bathroom with marble accents, shower and soaking tub. At 750-square feet, these elegant suites offer spacious living room and dining areas with hardwood floors, 42-inch high definition LED television in living room, a refrigerator, a bar and a deluxe guest powder room. Spacious bedroom features premium Egyptian cotton linens, white silk duvet cover over duvet with goose down comforter, exclusive Hypnos cashmere mattresses, restored antique mahogany furniture and writing desk designed with comfort and style in mind, original three-dimensional artwork, Whitehall signature plush robes, a second full bathroom with shower and soaking tub, vanity, luxury bath amenities, in-room safe, and amenities.",
+            "price":199,
+            "img":"/images/room1.jpg"
+        },
+        {
+            "id":"rooms",
+            "description":"Our Superior Queen Room features a queen-size bed, premium Egyptian cotton linens with duvet cover over goose down comforter.",
+            "title":"Superior  Queen Room",
+            "slug":"Superior-Queen-Room",
+            "slugDescription":"Enter the standard in Chicago hotel rooms at The Whitehall.  Our Superior Queen Room features a queen-size bed, premium Egyptian cotton linens, duvet cover over goose down comforter, exclusive cashmere Hypnos mattresses, custom designed furniture, writing desk and original art work, Whitehall signature plush robes, in-room safe, 42-inch high definition LED television, Netflix available with membership, marble bathroom with hand-placed onyx mosaic tiles with shower and soaking tub, vanity and luxury bath amenities, and all the essentials.",
+            "img":"/images/room1.jpg"
+        },
+        {
+            "id":"rooms",
+            "description":"Our Superior King Room features a king-size bed, premium Egyptian cotton linens with duvet cover over goose down comforter.",
+            "title":"Superior King Room",
+            "slug":"Superior-king-Room",
+            "slugDescrption":"Enter the standard in Chicago hotel rooms at The Whitehall.  Our Superior King Room features a king-size bed, premium Egyptian cotton linens, duvet cover over goose down comforter, exclusive cashmere Hypnos mattresses, custom designed furniture, writing desk and original art work, Whitehall signature plush robes, in-room safe, 42-inch high definition LED television, Netflix available with membership, marble bathroom with hand-placed onyx mosaic tiles with shower and soaking tub, vanity and luxury bath amenities, and all the essentials.",
+            "img":"/images/room2.jpg"
+        },
+        {
+            "id":"rooms",
+            "description":"Our spacious Superior Double Queen Room is the perfect base for your Chicago vacation. This hotel room in Chicago is designed for accommodating up to four guests.",
+            "title":"Superior Double Queen Room",
+            "slug":"Superior-Double-Queen-Room",
+            "slugDescription":"Enter the standard in Chicago hotel rooms at The Whitehall.  Our Superior King Room features a king-size bed, premium Egyptian cotton linens, duvet cover over goose down comforter, exclusive cashmere Hypnos mattresses, custom designed furniture, writing desk and original art work, Whitehall signature plush robes, in-room safe, 42-inch high definition LED television, Netflix available with membership, marble bathroom with hand-placed onyx mosaic tiles with shower and soaking tub, vanity and luxury bath amenities, and all the essentials.",
+            "img":"/images/room3.jpg"
+        }
+    ]
+}

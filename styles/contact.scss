@@ -1,0 +1,124 @@
+$brown:hsl(0, 83%, 16%);
+$black:hsl(0, 0%, 0%);
+.contact{
+    width: 100%;
+    max-width: 1400px;
+    margin-inline: auto !important;
+    &__image{
+        width: 100%;
+        height: 500px;
+        background-image: url(../public/images/whitehall-place-lounge-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    @media (max-width:37.5em){
+        .contact__image{
+            background-size: cover;
+            height: 300px;
+        }
+    }
+    &__content{
+        margin-block-end: 50px;
+        h1{
+            text-align: center;
+            padding-block-start: 50px;
+            color: $brown;
+            font-weight: 100;
+            font-size: 2rem;
+        }
+        
+        p{
+            padding-block: 1rem;
+            font-size: 1.3rem;
+            line-height: 1.8;
+        width: 80%;
+        margin-inline: auto;
+        text-align: center;
+    }
+    @media (max-width:37.5em){
+            
+        h1{
+            font-size: 2rem;
+        }
+    
+}
+    }
+    &__form{
+        margin-block-end: 50px;
+        background-color: hsl(30, 25%, 94%);
+        h1{
+            padding-block-start: 50px;
+            color: $brown;
+            font-weight: 100;
+            font-size: 3rem;
+            padding-block-end: 2rem;
+            text-align: left;
+        }
+        form{
+            div{
+                label{
+                    span{
+                        color:red;
+                    }
+                }
+                margin-block: 10px;
+                #fname,#lname,#comments,#email,#pnumber,textarea{
+                width: 100%;
+                    padding-block: 10px;
+                }
+            }
+            @media(max-width:37.5em){
+                .grid{
+                    label{
+                        text-align: left;
+                        position: absolute;
+                        left: 10px;
+                    }
+                }
+            }
+            @media (min-width:37.5em){
+                .grid{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-template-areas: "f  l c"
+                "t e c";
+                gap:20px;
+                .firstName{
+                    grid-area: f;
+                }
+                .lastname{
+                    grid-area: l;
+                }
+                .commets{
+                    grid-area: c;
+                }
+                .Telephone{
+                    grid-area: t;
+                }
+                .Email{
+                    grid-area: e;
+                }
+                }
+            }
+            button{
+                padding-block: 10px;
+                padding-inline: 20px;
+                color: hsl(0, 0%, 100%);
+                background-color: $brown;
+                border-radius: 10px;
+            }
+        }
+       
+    }
+}
+.radio__btn{
+    display: flex;
+    input{
+        margin-inline-end: 10px;
+    }
+   .em{
+    margin-inline-start: 10px;
+    display: flex;
+   }
+}
