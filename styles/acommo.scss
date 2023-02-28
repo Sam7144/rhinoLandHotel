@@ -10,6 +10,12 @@
         background-position: center;
         height: 500px;
     }
+    @media (max-width:40em){
+        .acomo__image{
+            background-size: contain;
+            height: 400px;
+        }
+    }
     .ac-content{
         h1{
             text-align: center;
