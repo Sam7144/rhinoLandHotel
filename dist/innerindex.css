@@ -1,0 +1,65 @@
+.cat_specific {
+  width: 100%;
+}
+.cat_specific img {
+  width: 100%;
+  min-height: 350px;
+  max-height: 500px;
+}
+.cat_specific h2 {
+  margin-block: 1rem;
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+}
+.cat_specific p {
+  letter-spacing: 1px;
+  padding-inline: 10px;
+  line-height: 2.5;
+  text-align: center;
+}
+.cat_specific a {
+  display: block;
+  width: 30%;
+  color: white;
+  outline: 1px solid lime;
+  margin-block: 40px !important;
+  text-align: center;
+  padding: 10px;
+  background-color: hsl(0, 25%, 27%);
+  margin-inline: auto;
+}
+@media (min-width: 37.5em) {
+  .cat_specific h2 {
+    font-size: 3rem;
+  }
+  .cat_specific p {
+    font-size: 2rem;
+  }
+  .cat_specific a {
+    width: 40%;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 62.5em) {
+  .cat_specific {
+    display: flex;
+  }
+  .cat_specific img {
+    margin-block-start: 150px;
+  }
+  .cat_specific div {
+    margin-block-start: 150px;
+  }
+  .cat_specific div p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+    text-align: left;
+  }
+  .cat_specific div a {
+    width: 30%;
+    font-size: 1.3rem;
+  }
+}/*# sourceMappingURL=innerindex.css.map */

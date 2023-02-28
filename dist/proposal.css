@@ -1,0 +1,124 @@
+.proposal {
+  width: 100%;
+  max-width: 1400px;
+  margin-inline: auto !important;
+  margin-block-end: 100px;
+}
+.proposal h1 {
+  padding-block-start: 100px;
+  text-align: center;
+  color: hsl(0, 83%, 16%);
+  font-weight: 100;
+  font-size: 3rem;
+}
+.proposal p {
+  padding-block: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  width: 80%;
+  margin-inline: auto;
+  text-align: center;
+}
+@media (max-width: 37.5em) {
+  .proposal h1 {
+    font-size: 2rem;
+  }
+}
+.proposal .border {
+  width: 80%;
+  border-bottom: 1px solid hsl(0, 0%, 0%);
+  margin-block-start: 0px;
+  margin-inline: auto;
+  margin-block-end: 50px;
+}
+.proposal .form {
+  width: 85%;
+  margin-inline: auto;
+  padding: 20px;
+  background-color: hsl(210, 30%, 96%);
+}
+.proposal .form h3 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-block-end: 1rem;
+}
+.proposal .form label {
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+.proposal .form label span {
+  color: red;
+}
+.proposal .form input {
+  margin-block: 10px;
+  width: 100%;
+  padding-block: 15px;
+}
+.proposal .form input::placeholder {
+  font-size: 1rem;
+  padding-inline-start: 10px;
+}
+.proposal .form select {
+  margin-block: 10px;
+  width: 100%;
+  padding-block: 15px;
+  font-size: 1rem;
+}
+@media (min-width: 40em) {
+  .proposal .form__contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .proposal .form__guest {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .proposal .form__meeting {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .proposal .form__meeting .p-19 input, .proposal .form__meeting .p-20 input {
+    width: auto;
+    margin-inline-end: 10px;
+    margin-block-start: 10px;
+  }
+  .proposal .form__comments .p-17 label, .proposal .form__comments .p-18 label, .proposal .form__comments .p-19 label {
+    margin-block-end: 30px;
+  }
+  .proposal .form__comments .p-17 label textarea, .proposal .form__comments .p-18 label textarea, .proposal .form__comments .p-19 label textarea {
+    font-size: 2rem;
+  }
+  .proposal .form__comments .p-17 label textarea::placeholder, .proposal .form__comments .p-18 label textarea::placeholder, .proposal .form__comments .p-19 label textarea::placeholder {
+    font-size: 3rem;
+  }
+}
+.proposal .btn {
+  padding: 10px;
+  padding-inline: 20px;
+  background-color: hsl(0, 83%, 16%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+
+textarea {
+  font-size: 1rem;
+}
+textarea::placeholder {
+  margin-inline-start: 10px;
+  font-size: 1rem;
+}
+
+.p-200 {
+  font-size: 0.7rem !important;
+}
+.p-200 input {
+  width: auto !important;
+}
+.p-200 label {
+  margin-inline-start: 10px;
+  font-size: 0.7rem;
+  width: auto !important;
+}/*# sourceMappingURL=proposal.css.map */

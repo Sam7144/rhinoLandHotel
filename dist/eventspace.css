@@ -1,0 +1,146 @@
+.eventspace {
+  width: 100%;
+  max-width: 1400px;
+  margin-inline: auto !important;
+  margin-block-end: 70px;
+}
+.eventspace__image {
+  background-image: url(../public/images/salon1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.eventspace__content {
+  width: 100%;
+  margin-block-end: 50px;
+}
+.eventspace__content h1 {
+  padding-block-start: 50px;
+  text-align: center;
+  color: hsl(0, 83%, 16%);
+  font-weight: 100;
+  font-size: 3rem;
+}
+.eventspace__content h6 {
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+}
+.eventspace__content p {
+  padding-block: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  width: 80%;
+  margin-inline: auto;
+  text-align: center;
+}
+@media (max-width: 37.5em) {
+  .eventspace__content h1 {
+    font-size: 2rem;
+  }
+  .eventspace__content h6 {
+    font-size: 1rem;
+  }
+}
+.eventspace__display {
+  margin-block-start: 100px;
+}
+.eventspace__display .salon {
+  margin-block-end: 30px;
+}
+.eventspace__display .salon__image {
+  width: 100%;
+  background-image: url(../public//images/salon1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.eventspace__display .salon__content h1 {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-block: 20px;
+}
+.eventspace__display .salon__content p {
+  text-align: center;
+}
+.eventspace__display .colo {
+  margin-block-end: 30px;
+}
+.eventspace__display .colo__image {
+  width: 100%;
+  background-image: url(../public//images/colo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.eventspace__display .colo__content h1 {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-block: 20px;
+}
+.eventspace__display .colo__content p {
+  text-align: center;
+}
+.eventspace__display .plaza {
+  margin-block-end: 30px;
+}
+.eventspace__display .plaza__image {
+  width: 100%;
+  background-image: url(../public//images/plaza-buffet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.eventspace__display .plaza__content h1 {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-block: 20px;
+}
+.eventspace__display .plaza__content p {
+  text-align: center;
+}
+.eventspace__display .exe {
+  margin-block-end: 30px;
+}
+.eventspace__display .exe__image {
+  width: 100%;
+  background-image: url(../public//images/executive.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.eventspace__display .exe__content h1 {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-block: 20px;
+}
+.eventspace__display .exe__content p {
+  text-align: center;
+  font-size: 1rem;
+}
+@media (min-width: 37.5em) {
+  .eventspace .eventspace__display {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+.eventspace__plan {
+  text-align: center;
+}
+.eventspace__plan .plan__content {
+  background-color: hsl(0, 83%, 16%);
+  padding: 20px;
+  color: hsl(0, 0%, 100%);
+}/*# sourceMappingURL=eventspace.css.map */

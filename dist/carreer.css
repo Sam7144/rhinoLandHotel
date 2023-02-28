@@ -1,0 +1,27 @@
+.career {
+  width: 100%;
+  max-width: 1400px;
+  margin-inline: auto !important;
+  margin-block-end: 100px;
+}
+.career h1 {
+  padding-block-start: 100px;
+  text-align: center;
+  color: hsl(0, 83%, 16%);
+  font-weight: 100;
+  font-size: 3rem;
+}
+.career p {
+  padding-block: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  width: 80%;
+  margin-inline: auto;
+  text-align: center;
+  font-weight: 100;
+}
+@media (max-width: 37.5em) {
+  .career h1 {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=carreer.css.map */

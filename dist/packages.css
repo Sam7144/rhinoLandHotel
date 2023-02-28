@@ -1,0 +1,47 @@
+.package {
+  width: 100%;
+  max-width: 1400px;
+  margin-inline: auto !important;
+}
+.package__image {
+  width: 100%;
+  height: 500px;
+  background-image: url(../public/images/packages.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.package__content {
+  padding-block-start: 2rem;
+  padding-block-end: 4rem;
+}
+.package__content h1, .package__content h6, .package__content p {
+  font-weight: 100;
+  font-size: 4rem;
+  text-align: center;
+}
+.package__content h6 {
+  margin-block-start: 2rem;
+  font-size: 2rem;
+}
+.package__content p {
+  margin-block-start: 2rem;
+  font-size: 1.5rem;
+}
+.package__content .line {
+  width: 80%;
+  margin-block-start: 50px;
+  border-bottom: 1px solid lime;
+  margin-inline: auto;
+}
+@media (max-width: 37.5em) {
+  .package .package__content h1 {
+    font-size: 3rem;
+  }
+  .package .package__content h6 {
+    font-size: 2rem;
+  }
+  .package .package__content p {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=packages.css.map */

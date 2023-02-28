@@ -1,0 +1,27 @@
+.terms {
+  width: 100%;
+  max-width: 1400px;
+  margin-inline: auto !important;
+  margin-block-end: 100px;
+}
+.terms__headline h1 {
+  padding-block-start: 100px;
+  text-align: center;
+  color: hsl(0, 83%, 16%);
+  font-weight: 100;
+  font-size: 3rem;
+}
+.terms__headline .border {
+  width: 80%;
+  border-bottom: 1px solid hsl(0, 0%, 0%);
+  margin-block-start: 20px;
+  margin-inline: auto;
+}
+@media (max-width: 37.5em) {
+  .terms h1 {
+    font-size: 2rem;
+  }
+}
+.terms__content p {
+  padding-block: 1rem;
+}/*# sourceMappingURL=terms.css.map */
