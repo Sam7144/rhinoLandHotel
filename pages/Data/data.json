@@ -4,6 +4,7 @@
             "id":"suites",
             "title":"suites",
             "description":"View Our Suites",
+            "imgi":"https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80 1170w",
             "image":"/images/del.jpg",
             "destitle":"Spacious Downtown Chicago Hotel Suites"
         },
@@ -12,6 +13,7 @@
             "title":"rooms",
             "description":"View Our Rooms",
             "image":"/images/roombig2.jpg" ,
+            "imgi":"https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80",
             "destitle":"Luxe Downtown Chicago Hotel Rooms"
         }
     ]
