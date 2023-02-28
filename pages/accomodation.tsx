@@ -13,7 +13,7 @@ export default function Acoomodation({ data }): JSX.Element {
             </p>
         </div>
         <div className="acomo__body">
-          {data.map((ac): JSX.Element => (
+          {data.map((ac)=> (
             <Link className="card" href={`rooms-suites/${ac.id}`} key={ac.id}>
               <Image alt={ac.title} width={600} height={400} src={ac.imgi} />
               <div className="content">
