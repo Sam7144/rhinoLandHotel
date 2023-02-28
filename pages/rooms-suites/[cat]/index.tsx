@@ -28,7 +28,7 @@ export default function AccomodationCat({ data, catData }) {
             href={`/rooms-suites/${ev.id}/${ev.slug}`}
             passHref
           >
-            <Image alt={ev.title} className='cat__image' width={300} height={300} src={ev.img} />
+            <Image alt={ev.title} className='cat__image' width={300} height={300} src={ev.imgi} />
             <h2>{ev.title}</h2>
             <p>{ev.description}</p>
           </Link>

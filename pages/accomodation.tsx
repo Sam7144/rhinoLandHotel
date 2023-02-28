@@ -15,7 +15,7 @@ export default function Acoomodation({ data }): JSX.Element {
         <div className="acomo__body">
           {data.map((ac): JSX.Element => (
             <Link className="card" href={`rooms-suites/${ac.id}`} key={ac.id}>
-              <Image alt={ac.title} width={600} height={400} src={ac.img} />
+              <Image alt={ac.title} width={600} height={400} src={ac.imgi} />
               <div className="content">
                 <h2>{ac.title}</h2>
                 <h3>{ac.description}</h3>
