@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 import Image from "next/image";
 export default function Header() {
   const [isActive, setActive] = useState(false);
-  const herburgToggle = useRef();
+ // const herburgToggle = useRef();
   const hoverElement=useRef();
   const menuSideBar=useRef<HTMLUListElement>()
   const ele=menuSideBar.current;
@@ -108,7 +108,6 @@ export default function Header() {
       </div>
       <div className="herburger">
         <div
-          ref={herburgToggle}
           className={isActive ? "toggle" : " "}
           onClick={Toggle}
         >

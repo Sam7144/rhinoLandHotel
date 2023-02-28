@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-export default function Acoomodation({ data }) {
+export default function Acoomodation({ data }): JSX.Element {
   return (
     <>
       <div className="acomo">
@@ -13,7 +13,7 @@ export default function Acoomodation({ data }) {
             </p>
         </div>
         <div className="acomo__body">
-          {data.map((ac) => (
+          {data.map((ac): JSX.Element => (
             <Link className="card" href={`rooms-suites/${ac.id}`} key={ac.id}>
               <Image alt={ac.title} width={600} height={400} src={ac.img} />
               <div className="content">

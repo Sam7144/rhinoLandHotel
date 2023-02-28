@@ -6,8 +6,8 @@ export default function Privancy(){
                     <h1>Privacy Policy</h1>
                     <p className="border"></p>
                     <p>
-                    This Privacy Policy governs The RhinoLand Hotel's ("we" or "us") treatment of information that we collect when 
-                    you use the https://www.RhinoLand.com website (the "Website"). This Privacy Policy is for the Website only and does 
+                    This Privacy Policy governs The RhinoLand Hotels (we or us) treatment of information that we collect when 
+                    you use the https://www.RhinoLand.com website (the Website). This Privacy Policy is for the Website only and does 
                     not apply to the personal information provided to us for in-person or over the telephone. By visiting the Website, you accept this Privacy Policy. This Privacy Policy is incorporated into and is subject to the Terms & Conditions. Your use of the Website and any personal information you provide through the Website remain subject to the 
                     terms of this Privacy Policy and our Terms & Conditions.
                     </p>

@@ -19,7 +19,7 @@ export default function Home() {
             upscale four-star boutique hotel setting steps from famed Michigan
             Avenue. Enjoy exquisite dining, thrilling nightlife, and an
             ineffable sense of history that pervades your experience. Dating
-            back to 1928 and the birth of "The Magnificent Mile", our guests
+            back to 1928 and the birth of The Magnificent Mile, our guests
             have included a host of celebrities such as Katharine Hepburn,
             Richard Burton, Sophia Loren, Paul Newman, and Robert Redford plus
             music icons Barry Manilow, The Beatles, and Mick Jagger. Throughout
@@ -34,7 +34,7 @@ export default function Home() {
               <div className="r-h-side">
                 <li>complimentary wi-fi</li>
                 <li>Exclusive Handmade Hynos beds</li>
-                <li>42" LED Tv & video on demand</li>
+                <li>42 LED Tv & video on demand</li>
                 <li>in Rooms safe</li>
               </div>
               <div className="l-h-side">
@@ -54,8 +54,8 @@ export default function Home() {
           <div className="explore__content">
             <h2>Explore The RhinoLand</h2>
             <p>
-              Preview your stay at our boutique hotel in the heart of Chicago's
-              Gold Coast. Feel the welcoming ambiance of The Whitehall. We've
+              Preview your stay at our boutique hotel in the heart of Chicagos
+              Gold Coast. Feel the welcoming ambiance of The Whitehall. Weve
               kept both leisure and corporate travelers in mind. Our luxurious
               rooms and suites reflect our charming history and modern
               sensibilities.

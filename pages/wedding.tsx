@@ -7,7 +7,7 @@ export default function Wedding() {
         <div className="wedding__content">
 
           <h1>Weddings at The Whitehall</h1>
-          <h6>Say Your Vows In One of Chicago's Most Romantic Hotels</h6>
+          <h6>Say Your Vows In One of Chicagos Most Romantic Hotels</h6>
           <p>
             The historic Whitehall Hotel offers beautiful intimate ceremony
             venues and open spaces ready for dancing ideal for value-minded
@@ -15,8 +15,8 @@ export default function Wedding() {
             will assist you at every step to execute the wedding day of your
             dreams. Plus, our convenient downtown Chicago location ensures your
             guests will enjoy an unforgettable stay with ready access to The
-            Windy City's best entertainment and attractions. Say your vows in
-            one of Chicago's most romantic hotels.
+            Windy Citys best entertainment and attractions. Say your vows in
+            one of Chicagos most romantic hotels.
           </p>
         </div>
         <div className="eventspace__plan">
