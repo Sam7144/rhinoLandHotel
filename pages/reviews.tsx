@@ -16,7 +16,7 @@ export default function review(){
                     We will definitely be returning. - Guest from New York City, NY
                     </q><br/>
                     <q className="q-2">
-                    Was the best experience at a hotel that we have had in a very long time. The staff is very customer service oriented and highly recommend it if it's your first time in Chicago 
+                    Was the best experience at a hotel that we have had in a very long time. The staff is very customer service oriented and highly recommend it if its your first time in Chicago 
                     and or celebrating a special occasion. - Guest from Washington DC
                     </q><br/>
                     <q className="q-3">
