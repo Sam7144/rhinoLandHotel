@@ -10,8 +10,13 @@ export default function Header() {
   const sideM =useRef<HTMLInputElement>(null);
   
   const Toggle = () => {
-    setActive((current) => !current);
+    // setActive((current) => !current);
+    setActive(true)
   };
+  const Toggle2=()=>{
+    // setActive((current)=>current)
+    setActive(false)
+  }
   if(isActive){
     const sidemu=document.getElementById('side-menu')
     if(sidemu?.classList.contains('display-none')){
@@ -36,8 +41,14 @@ export default function Header() {
   }
   const displayMenu3=()=>{
     const elem3=document.getElementById('dan3');
-    if(elem3?.classList.contains('display-none')){
-      elem3?.classList.remove('display-none')
+    if(elem3?.classList.contains('display-none1')){
+      elem3?.classList.remove('display-none1')
+    }
+  }
+  const displayMenu4=()=>{
+    const elem4=document.getElementById('dan4');
+    if(elem4?.classList.contains('display-none1')){
+      elem4?.classList.remove('display-none1')
     }
   }
   const hideMenu=()=>{
@@ -50,7 +61,11 @@ export default function Header() {
   }
   const hideMenu3=()=>{
     const elem3=document.getElementById('dan3');
-    elem3?.classList.add('display-none')
+    elem3?.classList.add('display-none1')
+  }
+  const hideMenu4=()=>{
+    const elem4=document.getElementById('dan4');
+    elem4?.classList.add('display-none1')
   }
   return (
     <header>
@@ -99,7 +114,7 @@ export default function Header() {
                 </ul>
             </li>
             <li className="book">
-              <Link href="/" passHref>
+              <Link href="/book" passHref>
                 BOOK NOW
               </Link>
             </li>
@@ -116,7 +131,7 @@ export default function Header() {
           <span></span>
         </div>
       </div>
-      <div className='hide-for-mobile mobile-side-menu display-none' id='side-menu' ref={sideM}>
+      <div className='hide-for-mobile mobile-side-menu display-none' onMouseLeave={Toggle2} id='side-menu' ref={sideM}>
            <ul>
              <li>
                 <Link href='/'>HOME</Link>
@@ -124,7 +139,7 @@ export default function Header() {
              <li onMouseOver={displayMenu3} onMouseLeave={hideMenu3}
             >
                 <Link href='/accomodation' className="ac2">ACCOMODATION</Link>
-                <ul className='menu__sidebar2 hide-for-desktop display-none' id="dan3">
+                <ul className='menu__sidebar2 hide-for-desktop display-none1' id="dan3">
                   <li>
                   <Link href='/rooms-suites/suites' className="side">SUITES</Link>
                   </li>
@@ -134,8 +149,20 @@ export default function Header() {
                 </ul>
             </li>
              <li><Link href='/packages'>PACKAGES</Link></li>
-             <li>MEETING&EVENTS</li>
-             <li><Link href='/'>BOOK NOW</Link></li>
+             <li className="side__menu__list"  onMouseOver={displayMenu4} onMouseLeave={hideMenu4}>MEETING&EVENTS
+             <ul className='menu__sidebar3 hide-for-desktop display-none1' id="dan4">
+                  <li>
+                  <Link href='/events-spaces' className="side">EVENTS SPACES</Link>
+                  </li>
+                  <li>
+                  <Link href='/wedding' className="side">WEDDING</Link>
+                  </li>
+                  <li className="side-list">
+                  <Link href='/proposalEM' className="side side2">PROPOSAL</Link>
+                  </li>
+                </ul>
+             </li>
+             <li><Link href='/book'>BOOK NOW</Link></li>
            </ul>
       </div>
     </header>

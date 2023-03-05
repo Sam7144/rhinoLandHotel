@@ -15,7 +15,7 @@ import '../styles/proposal.scss'
 import '../styles/contact.scss'
 import '../styles/index.scss'
 import '../styles/innerindex.scss'
-
+import '../styles/book.scss'
 import type { AppProps } from 'next/app'
 
 import Mainlayout from '../src/components/layout/main-layout';

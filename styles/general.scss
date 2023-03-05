@@ -467,11 +467,34 @@ ul.menu__sidebar{
         //background-color: $gray;
         color: hsl(233, 26%, 24%); 
     }
+}
+    .menu__sidebar3{
+        width:60%;
+        text-align: right;
+        padding-block-start: 10px;
+        background-color: $white;
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        li{
+            text-align: right;
+            padding-inline-start: 30px;
+            //padding-block-end: 20px;
+            display: block;
+        }
+        li:hover{
+            //background-color: $gray;
+            color: hsl(233, 26%, 24%); 
+        }
     
 
 }
    
 .display-none{
+    display:none !important;
+}
+.display-none1{
     display:none !important;
 }
 .mobile-side-menu{
