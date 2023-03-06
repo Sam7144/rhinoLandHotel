@@ -10,7 +10,7 @@ const Final=({data})=>{
        <div>
        <h2>{data.title}</h2>
         <p>{data.slugDescription}</p>
-        <Link href='/' className='book'>BOOK NOW</Link>
+        <Link href='/book' className='book'>BOOK NOW</Link>
        </div>
         </div>
     )
