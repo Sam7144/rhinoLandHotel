@@ -182,11 +182,7 @@ export default function proposalEM() {
               </div>
             </div>
             <div className="alerH">
-              if you dont receive call within 24hours please contact us by
-              <Link href="/contact" className="alert">
-                {" "}
-                contact
-              </Link>
+              if you dont receive call within 24hours please resend your details
             </div>
             <button type="submit" className="btn">
               send
