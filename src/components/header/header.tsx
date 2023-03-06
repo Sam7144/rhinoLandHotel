@@ -1,31 +1,32 @@
 import Link from "next/link";
-import React, { useRef, useState } from "react";
-import Image from "next/image";
-export default function Header() {
-  const [isActive, setActive] = useState(false);
- // const herburgToggle = useRef();
-  const hoverElement=useRef();
+import React, { useRef} from "react";
+export default function Header(){
   const menuSideBar=useRef<HTMLUListElement>()
   const ele=menuSideBar.current;
   const sideM =useRef<HTMLInputElement>(null);
   
   const Toggle = () => {
-    // setActive((current) => !current);
-    setActive(true)
-  };
-  const Toggle2=()=>{
-    // setActive((current)=>current)
-    setActive(false)
-  }
-  if(isActive){
-    const sidemu=document.getElementById('side-menu')
+    let toggId=document.getElementById('togg');
+    if(toggId?.classList.contains('toggle')){
+      toggId?.classList.remove('toggle');
+      const sidemuu=sideM?.current
+    sidemuu?.classList.add('display-none')
+    }
+    else{
+      toggId?.classList.add('toggle');
+      const sidemu=document.getElementById('side-menu')
     if(sidemu?.classList.contains('display-none')){
       sidemu?.classList.remove('display-none')
     }
-  }
-  if(!isActive){
-    const sidemuu=sideM?.current
+    }
+  };
+  const unToggle=()=>{
+    let toggId=document.getElementById('togg');
+    if(toggId?.classList.contains('toggle')){
+      toggId?.classList.remove('toggle');
+      const sidemuu=sideM?.current
     sidemuu?.classList.add('display-none')
+    }
   }
   const displayMenu=()=>{
     const elem=document.getElementById('dan');
@@ -123,46 +124,44 @@ export default function Header() {
       </div>
       <div className="herburger">
         <div
-          className={isActive ? "toggle" : " "}
-          onClick={Toggle}
-        >
+          onClick={Toggle} id='togg'>
           <span></span>
           <span></span>
           <span></span>
         </div>
       </div>
-      <div className='hide-for-mobile mobile-side-menu display-none' onMouseLeave={Toggle2} id='side-menu' ref={sideM}>
+      <div className='hide-for-mobile mobile-side-menu display-none'id='side-menu' ref={sideM}>
            <ul>
              <li>
-                <Link href='/'>HOME</Link>
+                <Link href='/' onClick={unToggle}>HOME</Link>
              </li>
              <li onMouseOver={displayMenu3} onMouseLeave={hideMenu3}
             >
-                <Link href='/accomodation' className="ac2">ACCOMODATION</Link>
+                <Link href='/accomodation' className="ac2" onClick={unToggle}>ACCOMODATION</Link>
                 <ul className='menu__sidebar2 hide-for-desktop display-none1' id="dan3">
                   <li>
-                  <Link href='/rooms-suites/suites' className="side">SUITES</Link>
+                  <Link href='/rooms-suites/suites' className="side" onClick={unToggle}>SUITES</Link>
                   </li>
                   <li>
-                  <Link href='/rooms-suites/rooms' className="side">ROOMS</Link>
+                  <Link href='/rooms-suites/rooms' className="side" onClick={unToggle}>ROOMS</Link>
                   </li>
                 </ul>
             </li>
-             <li><Link href='/packages'>PACKAGES</Link></li>
+             <li><Link href='/packages' onClick={unToggle}>PACKAGES</Link></li>
              <li className="side__menu__list"  onMouseOver={displayMenu4} onMouseLeave={hideMenu4}>MEETING&EVENTS
              <ul className='menu__sidebar3 hide-for-desktop display-none1' id="dan4">
                   <li>
-                  <Link href='/events-spaces' className="side">EVENTS SPACES</Link>
+                  <Link href='/events-spaces' className="side"onClick={unToggle} >EVENTS SPACES</Link>
                   </li>
                   <li>
-                  <Link href='/wedding' className="side">WEDDING</Link>
+                  <Link href='/wedding' className="side" onClick={unToggle}>WEDDING</Link>
                   </li>
                   <li className="side-list">
-                  <Link href='/proposalEM' className="side side2">PROPOSAL</Link>
+                  <Link href='/proposalEM' className="side side2" onClick={unToggle}>PROPOSAL</Link>
                   </li>
                 </ul>
              </li>
-             <li><Link href='/book'>BOOK NOW</Link></li>
+             <li><Link href='/book' onClick={unToggle}>BOOK NOW</Link></li>
            </ul>
       </div>
     </header>
