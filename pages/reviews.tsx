@@ -24,7 +24,7 @@ export default function review(){
                     Lemon Drop Martini at their Bar! - Guest from Riverton, IL
                     </q><br/>
                     <q className="q-4">
-                    I enjoyed staying at the Whitehall Hotel because of its central location to a conference that I attended. The front desk staff were very friendly during both check-in and check-out and also provided suggestions as to where I might want to go shopping nearby. There is a beautiful historic church nearby that was a great place to stop and have a moment of peace. The room accommodations were very nice. I would 
+                    I enjoyed staying at the Rhinoland Hotel because of its central location to a conference that I attended. The front desk staff were very friendly during both check-in and check-out and also provided suggestions as to where I might want to go shopping nearby. There is a beautiful historic church nearby that was a great place to stop and have a moment of peace. The room accommodations were very nice. I would 
                     stay at The Whitehall Hotel again. - Guest from Minneapolis, MN
                     </q><br/>
                     </div>

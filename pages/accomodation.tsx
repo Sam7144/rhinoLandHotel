@@ -8,8 +8,8 @@ export default function Acoomodation({ data }): JSX.Element {
         <div className="ac-content">
             <h1>Spacious Downtown Chicago Hotel Rooms & Suites</h1>
             <p>
-            In addition to historic charm and standout location, The Whitehall Hotel features sophisticated accommodations to serve as the perfect downtown base for your Chicago vacation. Our boutique hotel rooms and suites are luxuriously appointed with features unique to The Whitehall. Our spacious suites provide you with options for one or two-bedroom configurations. Feel the warm and welcoming ambiance of 
-            The Whitehall, a gem among suite hotels in Chicago.
+            In addition to historic charm and standout location, The Rhinoland Hotel features sophisticated accommodations to serve as the perfect downtown base for your Chicago vacation. Our boutique hotel rooms and suites are luxuriously appointed with features unique to The Rhinoland. Our spacious suites provide you with options for one or two-bedroom configurations. Feel the warm and welcoming ambiance of 
+            The Rhinoland, a gem among suite hotels in Chicago.
             </p>
         </div>
         <div className="acomo__body">

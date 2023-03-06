@@ -22,7 +22,7 @@ export default function Home() {
             have included a host of celebrities such as Katharine Hepburn,
             Richard Burton, Sophia Loren, Paul Newman, and Robert Redford plus
             music icons Barry Manilow, The Beatles, and Mick Jagger. Throughout
-            our rich history, The Whitehall has served as luxe accommodations
+            our rich history, The Rhinoland has served as luxe accommodations
             with amenities to suit any traveler to Chicago.
           </p>
         </section>
@@ -54,7 +54,7 @@ export default function Home() {
             <h2>Explore The RhinoLand</h2>
             <p>
               Preview your stay at our boutique hotel in the heart of Chicagos
-              Gold Coast. Feel the welcoming ambiance of The Whitehall. Weve
+              Gold Coast. Feel the welcoming ambiance of The Rhinoland. Weve
               kept both leisure and corporate travelers in mind. Our luxurious
               rooms and suites reflect our charming history and modern
               sensibilities.
@@ -75,7 +75,7 @@ export default function Home() {
           <div className="downtown__content">
             <h1>OUR DOWNTOWN CHICAGO LOCATION</h1>
             <p>
-            The Whitehall Hotel is a landmark destination on Delaware Place, one-half block west of famous Michigan Avenue shopping and dining, and east of Rush Street, a lively strip of vibrant hotspots with the combination of traditional 
+            The Rhinoland Hotel is a landmark destination on Delaware Place, one-half block west of famous Michigan Avenue shopping and dining, and east of Rush Street, a lively strip of vibrant hotspots with the combination of traditional 
             Chicago flare and international flavor in the Gold Coast neighborhood.
             </p>
             <h6>

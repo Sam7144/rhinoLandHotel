@@ -33,9 +33,9 @@ export default function FooterFunction() {
           <h3>The RhinoLand Hotel</h3>
           <p>105 E. Delaware Place, Chicago, Illinois 60611</p>
           <p>
-            Phone: 312-944-6300 | Reservations: 800-948-4255 | Fax: 312-944-8552
+            Phone: 254-724337899 | Reservations: 254-746392964 | Fax: 254-42337899
           </p>
-          <p>info@thewhitehallhotel.com</p>
+          <p>samutech144@gmail.com</p>
         </div>
         <div className="address__image">
           <Link href="/">
@@ -70,7 +70,7 @@ export default function FooterFunction() {
             height={20}
           />
           </Link>
-          <p>Copyright <Link href="/">Amadeus Hospitality</Link></p>
+          <p>Copyright <Link href="/">samutech144@gmail.com</Link></p>
         </div>
       </div>
     </footer>

@@ -9,7 +9,7 @@ export default function EventSpaces() {
           <h6>Preview The Many Venue Options Available</h6>
           <p>
             Discover the ideal venues for productive meetings and conferences
-            and memorable social events in Chicago at The Whitehall Hotel. Our
+            and memorable social events in Chicago at The Rhinoland Hotel. Our
             event spaces include spacious banquet facilities, intimate meeting
             rooms, reception ballrooms, plush lounge area, and more - all
             customizable to your event. Our onsite event planning team,

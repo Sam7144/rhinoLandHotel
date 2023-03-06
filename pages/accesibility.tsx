@@ -7,7 +7,7 @@ export default function acessibility(){
                 </div>
                 <div className="access__content">
                     <h1>Notice of Accessibility</h1>
-                    <p>The Whitehall Hotel wants to assure the safety and comfort of all of our guests. All public areas including restaurants, lounge, front desk, lobby, concierge desk, business center, fitness center, and meeting rooms are accessible. Specifically, our restaurants, lounge, lobby, front desk, and concierge desks are on the first floor with accessible doors and no stairs or ramps while the business center, 
+                    <p>The Rhinoland Hotel wants to assure the safety and comfort of all of our guests. All public areas including restaurants, lounge, front desk, lobby, concierge desk, business center, fitness center, and meeting rooms are accessible. Specifically, our restaurants, lounge, lobby, front desk, and concierge desks are on the first floor with accessible doors and no stairs or ramps while the business center, 
                          center, and meeting rooms are accessible via elevator.</p>
                          <p>
                          Guests can request a full TDD kit, portable toilet seat and shower seat.
