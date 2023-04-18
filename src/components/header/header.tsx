@@ -120,7 +120,7 @@ export default function Header(){
               </Link>
             </li>
           </ul>
-        </nav>
+        </nav>  
       </div>
       <div className="herburger">
         <div
